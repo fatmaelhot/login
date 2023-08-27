@@ -1,0 +1,28 @@
+<html>
+
+
+<head>
+   
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body class="bg-dark">
+    <div class="container shadow my-5 bg-secondary">
+        <h1 class="text-center pt-5 pb-3">Smart Login System</h1>
+        <form class="mx-5 pb-5" id="form" action="signup.html">
+            <input id="email" type="email" class="form-control" placeholder="Enter your email" />
+            <input id="password" type="password" class="form-control my-3 " placeholder="Enter your password" />
+            <p class="mb-5 text-center" id="message"></p>
+            <button onclick="loginEvent(event)" id="login" class="btn btn-dark w-100 mb-3" type="submit">Login</button>
+            <p class="text-center">
+                Don’t have an account?
+                <a href="pages/signUp.html" class="text-decoration-none text-light">Sign Up</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
